@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name=”viewport” content=”width=device-width; initial-scale=1.0″>
+    <title>大连市第七人民医院动力环境综合展示</title>
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/module/show.css">
+</head>
+
+<body>
+
+<div class="page" id="show">
+    <div class="titlebox" align="center">
+        <strong>大连市第七人民医院动力环境综合展示</strong>
+    </div>
+
+    <div class="conboxs">
+        <div class="conbox all">
+            <div class="title"><span>总体情况</span></div>
+            <div class="contentbox all">
+                <div class="leftbox">
+                    <div class="circleProgress_wrapper">
+                        <div class="fontbox"></div>
+                        <div class="wrapper right">
+                            <div class="circleProgress rightcircle"></div>
+                        </div>
+                        <div class="wrapper left">
+                            <div class="circleProgress leftcircle"></div>
+                        </div>
+                    </div>
+                    <div class="infobox">
+                        <p>信息化指数</p>
+                    </div>
+                </div>
+                <div class="rightbox">
+                    <div class="items">
+                        <div class="item">
+                            <p class="title">状态良好</p>
+                            <p class="cum">有<span>3</span>个待优化项</p>
+                        </div>
+                        <div class="item">
+                            <p class="glyphicon glyphicon-th-large"></p>
+                            <p class="title">机房</p>
+                            <p class="cum"><span id="oinfo"></span>个</p>
+                        </div>
+                        <div class="item">
+                            <p class="fa fa-server"></p>
+                            <p class="title">服务器</p>
+                            <p class="cum"><span id="sinfo"></span>台</p>
+                        </div>
+                        <div class="item">
+                            <p class="fa fa-hdd-o"></p>
+                            <p class="title">网络设备</p>
+                            <p class="cum"><span id="winfo"></span>台</p>
+                        </div>
+                        <div class="item">
+                            <p class="fa fa-television"></p>
+                            <p class="title">虚拟机</p>
+                            <p class="cum"><span id="finfo"></span>台</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="conbox roominfo">
+                <div class="title"><span>机房</span></div>
+                <div class="exinfo" id="exroom">
+                    <div class="left"></div>
+                    <div class="right"></div>
+                    <div class="clearfix"></div>
+                </div>
+                <div id="roomcont1" class="roomcont"></div>
+                <div id="roomcont2" class="roomcont"></div>
+                <div class="infos"></div>
+            </div>
+        </div>
+
+        <div class="conbox">
+            <div class="title"><span>网络情况</span></div>
+            <div class="contentbox web">
+                <div id="webcont" class="webcont"></div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+
+        <div class="conbox">
+            <div class="title"><span>虚拟机情况</span></div>
+            <div class="contentbox fictitious"></div>
+        </div>
+
+        <div class="conbox">
+            <div class="title"><span>服务器情况</span></div>
+            <div class="exinfo" id="exserver"></div>
+            <div class="contentbox severs">
+                <div id="severcont1" class="severcont"></div>
+                <div id="severcont2" class="severcont"></div>
+                <div id="severcont3" class="severcont"></div>
+                <div id="severcont4" class="severcont"></div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+
+    <div class="tipbox">
+        <span>提示信息：</span><span>各项监控进行正常</span>
+    </div>
+</div>
+
+<script src="js/jquery.min.js"></script>
+<script src="plugin/sockjs.min.js"></script>
+<script src="plugin/stomp.min.js"></script>
+<script src="plugin/highcharts.js"></script>
+<script src="plugin/highcharts-3d.js"></script>
+<script src="js/common.js"></script>
+<script src="js/module/show.js"></script>
+</body>
+</html>

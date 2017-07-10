@@ -1,7 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0bb7251-853a-4738-a43e-a473c1ec1183" name="Default" comment="" />
+    <list default="true" id="e0bb7251-853a-4738-a43e-a473c1ec1183" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/daping2/fonts/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/daping2/fonts/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/daping2/fonts/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/daping2/fonts/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/daping2/fonts/fontawesome-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/daping2/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/daping2/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/daping2/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/daping2/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/daping2/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/daping2/css/common.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/daping2/css/font-awesome.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/daping2/css/fonts.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/daping2/css/module/show.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/daping2/fonts/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/daping2/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/daping2/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/daping2/js/common.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/daping2/js/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/daping2/js/module/show.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/daping2/plugin/highcharts-3d.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/daping2/plugin/highcharts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/daping2/plugin/sockjs.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/daping2/plugin/stomp.min.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/daping1" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +93,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="daping1" />
+              <option name="myItemId" value="daping2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -494,7 +521,7 @@
       <option name="presentableId" value="Default" />
       <updated>1499693010643</updated>
       <workItem from="1499693012199" duration="171000" />
-      <workItem from="1499693199832" duration="14000" />
+      <workItem from="1499693199832" duration="124000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1499693162535</created>
@@ -507,7 +534,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="185000" />
+    <option name="totallyTimeSpent" value="295000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1370" height="735" extended-state="0" />
