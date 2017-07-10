@@ -2,31 +2,502 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0bb7251-853a-4738-a43e-a473c1ec1183" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/daping2/fonts/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/daping2/fonts/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/daping2/fonts/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/daping2/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/daping2/fonts/fontawesome-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/daping2/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/daping2/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/daping2/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/daping2/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/daping2/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/daping2/css/common.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/daping2/css/font-awesome.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/daping2/css/fonts.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/daping2/css/module/show.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/daping2/fonts/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/daping2/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/daping2/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/daping2/js/common.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/daping2/js/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/daping2/js/module/show.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/daping2/plugin/highcharts-3d.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/daping2/plugin/highcharts.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/daping2/plugin/sockjs.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/daping2/plugin/stomp.min.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/daping1" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/assets/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/avatars/avatar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/avatars/avatar1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/avatars/avatar2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/avatars/avatar3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/avatars/avatar4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/avatars/avatar5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/avatars/profile-pic.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/avatars/user.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/css/chosen-sprite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/css/chosen-sprite@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/css/images/border.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/css/images/border1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/css/images/border2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/css/images/controls.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/css/images/ie6/borderBottomCenter.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/css/images/ie6/borderBottomLeft.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/css/images/ie6/borderBottomRight.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/css/images/ie6/borderMiddleLeft.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/css/images/ie6/borderMiddleRight.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/css/images/ie6/borderTopCenter.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/css/images/ie6/borderTopLeft.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/css/images/ie6/borderTopRight.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/css/images/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/css/images/loading_background.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/css/images/meteorshower.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/css/images/meteorshower2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/css/images/overlay.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/css/images/pattern.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/css/images/pattern.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/css/images/spritemap.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/css/images/spritemap@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/css/img/alpha.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/css/img/hue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/css/img/saturation.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/css/select2-spinner.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/css/select2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/css/select2x2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/css/zTreeStyle/img/line_conn.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/css/zTreeStyle/img/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/css/zTreeStyle/img/metro.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/css/zTreeStyle/img/metro.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/font/DXI1ORHCpsQm3Vp6mXoaTXhCUOGz7vYGh680lGh-uXM.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/font/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/font/summernote.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/font/summernote.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/font/summernote.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/fonts/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/fonts/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/fonts/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/fonts/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/fonts/fontawesome-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/images/back_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/images/back_enabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/images/back_enabled_hover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/images/email1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/images/email2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/images/email3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/images/email4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/images/forward_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/images/forward_enabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/images/forward_enabled_hover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/images/gallery/image-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/images/gallery/image-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/images/gallery/image-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/images/gallery/image-4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/images/gallery/image-5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/images/gallery/image-6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/images/gallery/thumb-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/images/gallery/thumb-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/images/gallery/thumb-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/images/gallery/thumb-4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/images/gallery/thumb-5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/images/gallery/thumb-6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/images/sort_asc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/images/sort_asc_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/images/sort_both.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/images/sort_desc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/images/sort_desc_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/images/spritemap.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/images/spritemap@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/img/clear.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/img/glyphicons-halflings-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/img/glyphicons-halflings.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/img/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/.babelrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/.editorconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/.eslintignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/build/build.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/build/dev-client.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/build/dev-server.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/build/utils.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/build/webpack.base.conf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/build/webpack.dev.conf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/build/webpack.prod.conf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/config/dev.env.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/config/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/config/prod.env.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/config/test.env.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/App.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/App_bk.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/Login.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/Calendar.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/Dashboard.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/FailureEmergency.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/Footer.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/Hello.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/Inspecting.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/InspectingForm.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/MainMenu.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/Navbar.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/Sidebar.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/Yes.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/common/AttachTable.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/common/Combobox.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/common/ComboboxOrganization.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/common/DualListBox.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/common/FileInput.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/common/Info.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/common/Pages.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/common/myAlert.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/dashboard/Counting.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/dashboard/DashboardTaskWaiting.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/dashboard/HealthIndex.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/dashboard/zabbixEvent.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/hardware/biz_deploy/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/hardware/infrastructure/cabinet_form.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/hardware/infrastructure/cabinet_list.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/hardware/infrastructure/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/hardware/infrastructure/total_msg.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/hardware/network_equipment/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/hardware/office_equipment/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/hardware/server/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/hardware/server/storage_form.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/hardware/server/storage_list.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/hardware/server/virtual_minachine_form.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/hardware/server/virtual_minachine_list.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/hardware/server/x86_form.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/hardware/server/x86_list.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/hardware/support_software/database_form.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/hardware/support_software/database_list.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/hardware/support_software/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/hardware/support_software/middleware_form.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/hardware/support_software/middleware_list.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/hardware/support_software/vm_platform_form.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/hardware/support_software/vm_platform_list.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/inspection/InspectionPlanDetail.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/inspection/InspectionPlans.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/inspection/InspectionTemplate.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/inspection/InspectionTplDetail.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/ip-management/Ip.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/ip-management/IpAdd.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/ip-management/server_ip_form.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/ip-management/server_ip_list.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/monitoring-system/BizMonitor.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/monitoring-system/DBMonitor.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/monitoring-system/ServerMonitor.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/myTable.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/notice/Notice.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/notice/ReceiveNotice.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/notice/SendNotice.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/project-management/ContractAcceptance.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/project-management/ContractAcceptanceDetail.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/project-management/ContractExecDetail.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/project-management/ContractExecPlanDetail.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/project-management/ContractExecution.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/project-management/ContractExecutionPlan.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/project-management/ContractPayment.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/project-management/ContractPaymentDetail.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/project-management/ContractPaymentOverview.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/project-management/ContractQuery.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/project-management/ContractRegister.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/project-management/ContractRegisterDetail.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/project-management/ContractRegisterDetailPayAdd.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/project-management/ContractRegisterDetailPayDetail.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/project-management/ProjectApply.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/project-management/ProjectApplyAdd.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/project-management/ProjectPurchase.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/project-management/ProjectPurchaseDetail.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/project-management/ProjectPurchaseDetailAdd.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/project-management/ProjectPurchaseDetailDetail.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/resource-management/BusinessApp.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/resource-management/BusinessAppAdd.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/resource-management/Room.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/resource-management/RoomAdd.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/resource-management/Vendor.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/resource-management/VendorAdd.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/task/Attachment.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/task/FlowChart.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/task/FormDataChangeStep1.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/task/FormDataChangeStep2.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/task/FormDataChangeStep3.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/task/FormDataChangeStep4.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/task/FormDataChangeStep5.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/task/FormDataChangeStepDetail.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/task/FormDataQueryStep1.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/task/FormDataQueryStep2.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/task/FormDataQueryStep3.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/task/FormDataQueryStep4.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/task/FormDataQueryStep5.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/task/FormDataQueryStep6.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/task/FormDataQueryStepDetail.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/task/FormProgramDeployStep1.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/task/FormProgramDeployStep2.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/task/FormProgramDeployStep3.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/task/FormProgramDeployStep4.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/task/FormProgramDeployStepDetail.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/task/FormRequirementChangeStep1.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/task/FormRequirementChangeStep2.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/task/FormRequirementChangeStep3.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/task/FormRequirementChangeStep4.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/task/FormRequirementChangeStep5.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/task/FormRequirementChangeStep6.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/task/FormRequirementChangeStepDetail.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/task/StartDataChange.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/task/StartDataQuery.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/task/StartProgramDeploy.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/task/StartRequirementChange.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/task/TaskHistory.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/task/TaskStart.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/task/TaskWaiting.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/components/task/myForm.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/echarts-theme-config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/hardware-route-config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/route-config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/vuex/hardware-mutation-types.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/vuex/modules/authentication/LoginActions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/vuex/modules/authentication/LoginGetters.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/vuex/modules/authentication/LoginState.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/vuex/modules/authentication/MainMenuActions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/vuex/modules/authentication/MainMenuGetters.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/vuex/modules/authentication/MainMenuState.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/vuex/modules/common/CodeTableGetters.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/vuex/modules/common/CodeTableState.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/vuex/modules/common/ComboboxActions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/vuex/modules/common/DuailListBoxActions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/vuex/modules/common/DuailListBoxGetters.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/vuex/modules/common/DuailListBoxState.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/vuex/modules/common/ajaxReq.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/vuex/modules/common/ajaxZabbix.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/vuex/modules/common/guid.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/vuex/modules/dashboard/DashboardActions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/vuex/modules/dashboard/DashboardGetters.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/vuex/modules/dashboard/DashboardState.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/vuex/modules/hardward/infrastructure/CabinetActions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/vuex/modules/hardward/infrastructure/CabinetGetters.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/vuex/modules/hardward/infrastructure/CabinetState.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/vuex/modules/hardward/server/StorageActions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/vuex/modules/hardward/server/StorageGetters.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/vuex/modules/hardward/server/StorageState.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/vuex/modules/hardward/server/X86Actions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/vuex/modules/hardward/server/X86Getters.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/vuex/modules/hardward/server/X86State.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/vuex/modules/hardward/support_software/DatabaseActions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/vuex/modules/hardward/support_software/DatabaseGetters.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/vuex/modules/hardward/support_software/DatabaseState.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/vuex/modules/hardward/support_software/VmPlatActions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/vuex/modules/hardward/support_software/VmPlatGetters.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/vuex/modules/hardward/support_software/VmPlatState.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/vuex/modules/inspection/InspectionActions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/vuex/modules/inspection/InspectionGetters.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/vuex/modules/inspection/InspectionState.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/vuex/modules/ip-management/IpActions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/vuex/modules/ip-management/IpGetters.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/vuex/modules/ip-management/IpState.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/vuex/modules/ip-management/ServerIpActions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/vuex/modules/ip-management/ServerIpGetters.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/vuex/modules/ip-management/ServerIpState.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/vuex/modules/monitoring/MonBizActions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/vuex/modules/monitoring/MonBizGetters.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/vuex/modules/monitoring/MonBizState.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/vuex/modules/monitoring/MonDBActions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/vuex/modules/monitoring/MonDBGetters.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/vuex/modules/monitoring/MonDBState.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/vuex/modules/monitoring/MonServerActions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/vuex/modules/monitoring/MonServerGetters.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/vuex/modules/monitoring/MonServerState.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/vuex/modules/notice/NoticeActions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/vuex/modules/notice/NoticeGetters.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/vuex/modules/notice/NoticeState.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/vuex/modules/notice/notice.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/vuex/modules/project-management/ContractExecPlanActions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/vuex/modules/project-management/ContractExecPlanGetters.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/vuex/modules/project-management/ContractExecPlanState.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/vuex/modules/project-management/ContractRegisterActions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/vuex/modules/project-management/ContractRegisterGetters.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/vuex/modules/project-management/ContractRegisterState.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/vuex/modules/project-management/ProjectApplyActions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/vuex/modules/project-management/ProjectApplyGetters.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/vuex/modules/project-management/ProjectApplyState.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/vuex/modules/project-management/ProjectPurchaseActions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/vuex/modules/project-management/ProjectPurchaseGetters.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/vuex/modules/project-management/ProjectPurchaseState.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/vuex/modules/resource-management/BusinessAppActions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/vuex/modules/resource-management/BusinessAppGetters.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/vuex/modules/resource-management/BusinessAppState.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/vuex/modules/resource-management/OrgActions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/vuex/modules/resource-management/OrgGetters.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/vuex/modules/resource-management/OrgState.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/vuex/modules/resource-management/RoomActions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/vuex/modules/resource-management/RoomGetters.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/vuex/modules/resource-management/RoomState.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/vuex/modules/resource-management/VendorActions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/vuex/modules/resource-management/VendorGetters.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/vuex/modules/resource-management/VendorState.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/vuex/modules/task/TaskActions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/vuex/modules/task/TaskGetters.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/vuex/modules/task/TaskState.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/vuex/mutation-types.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/src/vuex/store.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/css/ace-fonts.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/css/ace-ie.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/css/ace-part2.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/css/ace-rtl.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/css/ace-skins.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/css/ace.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/css/ace.onpage-help.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/css/animate.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/css/bootstrap-datetimepicker.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/css/bootstrap-duallistbox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/css/bootstrap-editable.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/css/bootstrap-multiselect.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/css/bootstrap-timepicker.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/css/chosen.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/css/colorbox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/css/colorpicker.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/css/datepicker.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/css/daterangepicker.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/css/dropzone.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/css/font-awesome.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/css/font-awesome.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/css/fullcalendar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/css/fullcalendar.print.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/css/jquery-ui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/css/jquery-ui.custom.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/css/jquery.gritter.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/css/prettify.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/css/select2.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/css/summernote.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/css/ui.jqgrid.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/css/zTreeStyle/metroStyle.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/font/readme" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/fonts/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/ace-elements.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/ace-extra.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/ace.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/ace/ace.ajax-content.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/ace/ace.auto-container.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/ace/ace.auto-padding.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/ace/ace.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/ace/ace.onpage-help.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/ace/ace.searchbox-autocomplete.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/ace/ace.settings-rtl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/ace/ace.settings-skin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/ace/ace.settings.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/ace/ace.sidebar-scroll-1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/ace/ace.sidebar-scroll-2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/ace/ace.sidebar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/ace/ace.submenu-hover.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/ace/ace.touch-drag.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/ace/ace.widget-box.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/ace/ace.widget-on-reload.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/ace/elements.aside.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/ace/elements.colorpicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/ace/elements.fileinput.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/ace/elements.onpage-help.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/ace/elements.scroller.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/ace/elements.spinner.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/ace/elements.treeview.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/ace/elements.typeahead.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/ace/elements.wizard.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/ace/elements.wysiwyg.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/ace/readme" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/ace/scripts.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/additional-methods.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/bootbox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/bootstrap-colorpicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/bootstrap-inputmask.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/bootstrap-multiselect.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/bootstrap-tag.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/bootstrap-wysiwyg.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/chosen.jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/date-time/bootstrap-datepicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/date-time/bootstrap-datetimepicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/date-time/bootstrap-timepicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/date-time/daterangepicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/date-time/moment.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/dropzone.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/echarts-theme-walden.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/excanvas.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/flot/jquery.flot.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/flot/jquery.flot.pie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/flot/jquery.flot.resize.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/fuelux/fuelux.spinner.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/fuelux/fuelux.tree.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/fuelux/fuelux.wizard.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/fullcalendar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/html5shiv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/jqGrid/i18n/grid.locale-ar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/jqGrid/i18n/grid.locale-bg.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/jqGrid/i18n/grid.locale-bg1251.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/jqGrid/i18n/grid.locale-cat.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/jqGrid/i18n/grid.locale-cn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/jqGrid/i18n/grid.locale-cs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/jqGrid/i18n/grid.locale-da.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/jqGrid/i18n/grid.locale-de.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/jqGrid/i18n/grid.locale-dk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/jqGrid/i18n/grid.locale-el.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/jqGrid/i18n/grid.locale-en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/jqGrid/i18n/grid.locale-es.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/jqGrid/i18n/grid.locale-fa.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/jqGrid/i18n/grid.locale-fi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/jqGrid/i18n/grid.locale-fr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/jqGrid/i18n/grid.locale-gl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/jqGrid/i18n/grid.locale-he.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/jqGrid/i18n/grid.locale-hr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/jqGrid/i18n/grid.locale-hr1250.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/jqGrid/i18n/grid.locale-hu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/jqGrid/i18n/grid.locale-id.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/jqGrid/i18n/grid.locale-is.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/jqGrid/i18n/grid.locale-it.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/jqGrid/i18n/grid.locale-ja.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/jqGrid/i18n/grid.locale-kr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/jqGrid/i18n/grid.locale-lt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/jqGrid/i18n/grid.locale-mne.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/jqGrid/i18n/grid.locale-nl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/jqGrid/i18n/grid.locale-no.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/jqGrid/i18n/grid.locale-pl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/jqGrid/i18n/grid.locale-pt-br.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/jqGrid/i18n/grid.locale-pt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/jqGrid/i18n/grid.locale-ro.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/jqGrid/i18n/grid.locale-ru.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/jqGrid/i18n/grid.locale-sk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/jqGrid/i18n/grid.locale-sr-latin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/jqGrid/i18n/grid.locale-sr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/jqGrid/i18n/grid.locale-sv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/jqGrid/i18n/grid.locale-th.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/jqGrid/i18n/grid.locale-tr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/jqGrid/i18n/grid.locale-tw.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/jqGrid/i18n/grid.locale-ua.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/jqGrid/i18n/grid.locale-vi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/jqGrid/jquery.jqGrid.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/jquery-ui.custom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/jquery-ui.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/jquery.autosize.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/jquery.bootstrap-duallistbox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/jquery.colorbox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/jquery.dataTables.bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/jquery.dataTables.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/jquery.easypiechart.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/jquery.gritter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/jquery.hotkeys.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/jquery.inputlimiter.1.3.1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/jquery.inputmask.bundle.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/jquery.knob.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/jquery.maskedinput.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/jquery.mobile.custom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/jquery.mousewheel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/jquery.nestable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/jquery.raty.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/jquery.slimscroll.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/jquery.sparkline.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/jquery.ui.touch-punch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/jquery.validate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/jquery1x.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/markdown/bootstrap-markdown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/markdown/markdown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/markdown/to-markdown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/my.fileinput.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/prettify.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/respond.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/select2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/spin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/summernote.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/typeahead.jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/x-editable/ace-editable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/x-editable/bootstrap-editable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/static/assets/js/zTree/jquery.ztree.all.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/test/unit/.eslintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/test/unit/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/test/unit/karma.conf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/litchi/test/unit/specs/Hello.spec.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -80,20 +551,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="code" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="daping2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -521,7 +978,7 @@
       <option name="presentableId" value="Default" />
       <updated>1499693010643</updated>
       <workItem from="1499693012199" duration="171000" />
-      <workItem from="1499693199832" duration="124000" />
+      <workItem from="1499693199832" duration="370000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1499693162535</created>
@@ -530,11 +987,18 @@
       <option name="project" value="LOCAL" />
       <updated>1499693162535</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="daping2">
+      <created>1499693463959</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1499693463959</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="295000" />
+    <option name="totallyTimeSpent" value="541000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1370" height="735" extended-state="0" />
@@ -577,7 +1041,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1" />
+    <MESSAGE value="daping2" />
+    <option name="LAST_COMMIT_MESSAGE" value="daping2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
