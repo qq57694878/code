@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- hibernate -->
+    <bean id="sessionFactory" class="com.youi.core.hibernate.RecoverableSessionFactoryBean" depends-on="databaseMigrator">
+        <property name="dataSource" ref="dataSource"/>
+        <property name="packagesToScan" value="com.youi"/>
+		<property name="hibernateProperties" ref="applicationProperties"/>
+    </bean>
+
+	<!-- 事务 -->
+	<bean id="transactionManager" class="com.youi.core.hibernate.ReadOnlyTransactionManager">
+		<property name="platformTransactionManager">
+			<bean class="org.springframework.orm.hibernate4.HibernateTransactionManager">
+				<property name="sessionFactory" ref="sessionFactory" />
+			</bean>
+		</property>
+	</bean>
+
+	<!-- id -->
+	<bean id="idGenerator" class="com.youi.core.id.SnowFlakeIdGenerator">
+		<constructor-arg value="0"/>
+	</bean>
+	<bean id="hibernatePagingDao" class="com.youi.core.hibernate.HibernatePagingDao">
+	</bean>
+
+</beans>

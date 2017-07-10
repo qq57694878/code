@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:activiti="http://activiti.org/bpmn" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:omgdc="http://www.omg.org/spec/DD/20100524/DC" xmlns:omgdi="http://www.omg.org/spec/DD/20100524/DI" typeLanguage="http://www.w3.org/2001/XMLSchema" expressionLanguage="http://www.w3.org/1999/XPath" targetNamespace="http://www.activiti.org/test">
+  <process id="sw_program_deploy" name="程序发布" isExecutable="true">
+    <startEvent id="step0" name="开始" activiti:initiator="creator"></startEvent>
+    <userTask id="step1" name="外协公司发布程序申请" activiti:assignee="${creator}">
+      <extensionElements>
+        <activiti:operations>
+          <activiti:submit enable="true"></activiti:submit>
+          <activiti:stop enable="true"></activiti:stop>
+          <activiti:reject enable="false"></activiti:reject>
+        </activiti:operations>
+      </extensionElements>
+    </userTask>
+    <userTask id="step2" name="信息中心审批" activiti:candidateUsers="${candidateUsersProgramDeploy.getStep2Users(execution,creator,'xxzx_employe')}">
+      <extensionElements>
+        <activiti:formProperty id="step2Approved" type="boolean" required="true"></activiti:formProperty>
+        <activiti:operations>
+          <activiti:submit enable="true"></activiti:submit>
+          <activiti:stop enable="true"></activiti:stop>
+          <activiti:reject enable="true"></activiti:reject>
+        </activiti:operations>
+      </extensionElements>
+    </userTask>
+    <userTask id="step3" name="业务部门审批" activiti:assignee="${assignee}">
+      <extensionElements>
+        <activiti:formProperty id="step3Approved" type="boolean" required="true"></activiti:formProperty>
+        <activiti:operations>
+          <activiti:submit enable="true"></activiti:submit>
+          <activiti:stop enable="true"></activiti:stop>
+          <activiti:reject enable="true"></activiti:reject>
+        </activiti:operations>
+      </extensionElements>
+      <multiInstanceLoopCharacteristics isSequential="false" activiti:collection="${candidateUsersProgramDeploy.getStep3Users(execution,creator,'biz_leader')}" activiti:elementVariable="assignee">
+      <completionCondition>
+	    ${candidateUsersProgramDeploy.canCompleteStep3(
+			execution,
+			nrOfInstances,
+			nrOfActiveInstances,
+			nrOfCompletedInstances,
+			loopCounter)}
+	  </completionCondition>
+    </multiInstanceLoopCharacteristics>
+    </userTask>
+    <userTask id="step4" name="信息中心发布" activiti:candidateUsers="${candidateUsersProgramDeploy.getStep4Users(execution,creator,'')}">
+      <extensionElements>
+        <activiti:operations>
+          <activiti:submit enable="true"></activiti:submit>
+          <activiti:stop enable="false"></activiti:stop>
+          <activiti:reject enable="false"></activiti:reject>
+        </activiti:operations>
+      </extensionElements>
+    </userTask>
+    <exclusiveGateway id="gw1" name="gw1"></exclusiveGateway>
+    <exclusiveGateway id="gw2" name="gw2"></exclusiveGateway>
+    <sequenceFlow id="flow1" sourceRef="step0" targetRef="step1"></sequenceFlow>
+    <sequenceFlow id="flow2" sourceRef="step1" targetRef="step2"></sequenceFlow>
+    <sequenceFlow id="flow3" sourceRef="step2" targetRef="gw1"></sequenceFlow>
+    <sequenceFlow id="flow4" name="驳回" sourceRef="gw1" targetRef="step1">
+      <conditionExpression xsi:type="tFormalExpression"><![CDATA[${step2Approved == false}]]></conditionExpression>
+    </sequenceFlow>
+    <sequenceFlow id="flow5" name="通过" sourceRef="gw1" targetRef="step3">
+      <conditionExpression xsi:type="tFormalExpression"><![CDATA[${step2Approved == true}]]></conditionExpression>
+    </sequenceFlow>
+    <sequenceFlow id="flow7" name="通过" sourceRef="gw2" targetRef="step4">
+      <conditionExpression xsi:type="tFormalExpression"><![CDATA[${step3Approved == true}]]></conditionExpression>
+    </sequenceFlow>
+    <sequenceFlow id="flow14" sourceRef="step3" targetRef="gw2"></sequenceFlow>
+    <endEvent id="end" name="End"></endEvent>
+    <sequenceFlow id="flow15" sourceRef="step4" targetRef="end"></sequenceFlow>
+    <sequenceFlow id="flow16" name="驳回" sourceRef="gw2" targetRef="step2">
+      <conditionExpression xsi:type="tFormalExpression"><![CDATA[${step3Approved == false}]]></conditionExpression>
+    </sequenceFlow>
+  </process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_program_deploy">
+    <bpmndi:BPMNPlane bpmnElement="program_deploy" id="BPMNPlane_program_deploy">
+      <bpmndi:BPMNShape bpmnElement="step0" id="BPMNShape_step0">
+        <omgdc:Bounds height="35.0" width="35.0" x="100.0" y="180.0"></omgdc:Bounds>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="step1" id="BPMNShape_step1">
+        <omgdc:Bounds height="76.0" width="105.0" x="180.0" y="160.0"></omgdc:Bounds>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="step2" id="BPMNShape_step2">
+        <omgdc:Bounds height="55.0" width="105.0" x="340.0" y="170.0"></omgdc:Bounds>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="step3" id="BPMNShape_step3">
+        <omgdc:Bounds height="55.0" width="105.0" x="620.0" y="170.0"></omgdc:Bounds>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="step4" id="BPMNShape_step4">
+        <omgdc:Bounds height="55.0" width="105.0" x="840.0" y="170.0"></omgdc:Bounds>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="gw1" id="BPMNShape_gw1">
+        <omgdc:Bounds height="40.0" width="40.0" x="520.0" y="177.0"></omgdc:Bounds>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="gw2" id="BPMNShape_gw2">
+        <omgdc:Bounds height="40.0" width="40.0" x="760.0" y="178.0"></omgdc:Bounds>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="end" id="BPMNShape_end">
+        <omgdc:Bounds height="35.0" width="35.0" x="1010.0" y="180.0"></omgdc:Bounds>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge bpmnElement="flow1" id="BPMNEdge_flow1">
+        <omgdi:waypoint x="135.0" y="197.0"></omgdi:waypoint>
+        <omgdi:waypoint x="180.0" y="198.0"></omgdi:waypoint>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="flow2" id="BPMNEdge_flow2">
+        <omgdi:waypoint x="285.0" y="198.0"></omgdi:waypoint>
+        <omgdi:waypoint x="340.0" y="197.0"></omgdi:waypoint>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="flow3" id="BPMNEdge_flow3">
+        <omgdi:waypoint x="445.0" y="197.0"></omgdi:waypoint>
+        <omgdi:waypoint x="520.0" y="197.0"></omgdi:waypoint>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="flow4" id="BPMNEdge_flow4">
+        <omgdi:waypoint x="540.0" y="217.0"></omgdi:waypoint>
+        <omgdi:waypoint x="540.0" y="323.0"></omgdi:waypoint>
+        <omgdi:waypoint x="232.0" y="323.0"></omgdi:waypoint>
+        <omgdi:waypoint x="232.0" y="236.0"></omgdi:waypoint>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="18.0" width="32.0" x="540.0" y="217.0"></omgdc:Bounds>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="flow5" id="BPMNEdge_flow5">
+        <omgdi:waypoint x="560.0" y="197.0"></omgdi:waypoint>
+        <omgdi:waypoint x="620.0" y="197.0"></omgdi:waypoint>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="18.0" width="32.0" x="560.0" y="197.0"></omgdc:Bounds>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="flow7" id="BPMNEdge_flow7">
+        <omgdi:waypoint x="800.0" y="198.0"></omgdi:waypoint>
+        <omgdi:waypoint x="840.0" y="197.0"></omgdi:waypoint>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="18.0" width="32.0" x="800.0" y="198.0"></omgdc:Bounds>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="flow14" id="BPMNEdge_flow14">
+        <omgdi:waypoint x="725.0" y="197.0"></omgdi:waypoint>
+        <omgdi:waypoint x="760.0" y="198.0"></omgdi:waypoint>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="flow15" id="BPMNEdge_flow15">
+        <omgdi:waypoint x="945.0" y="197.0"></omgdi:waypoint>
+        <omgdi:waypoint x="1010.0" y="197.0"></omgdi:waypoint>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="flow16" id="BPMNEdge_flow16">
+        <omgdi:waypoint x="780.0" y="178.0"></omgdi:waypoint>
+        <omgdi:waypoint x="780.0" y="83.0"></omgdi:waypoint>
+        <omgdi:waypoint x="589.0" y="83.0"></omgdi:waypoint>
+        <omgdi:waypoint x="392.0" y="83.0"></omgdi:waypoint>
+        <omgdi:waypoint x="392.0" y="170.0"></omgdi:waypoint>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="18.0" width="100.0" x="780.0" y="178.0"></omgdc:Bounds>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</definitions>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	    xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="compositeFilter" class="com.youi.core.servlet.CompositeFilter">
+		<property name="filters">
+			<list>
+			    <ref bean="beforeInvocationFilter"/>
+				<ref bean="openSessionInViewFilter"/>
+				<ref bean="servletFilter"/>
+			</list>
+		</property>
+	</bean>
+
+	<bean id="beforeInvocationFilter" class="com.youi.core.servlet.BeforeInvocationFilter">
+		<property name="filters">
+			<list>
+				<ref bean="characterEncodingFilter"/>
+				<ref bean="beforeInvocationSettingFilter"/>
+			</list>
+		</property>
+	</bean>
+
+
+
+	<bean id="characterEncodingFilter" class="com.youi.core.servlet.ProxyFilter">
+		<property name="name" value="encode"/>
+		<property name="filter">
+			<bean class="org.springframework.web.filter.CharacterEncodingFilter">
+				<property name="encoding" value="UTF-8"/>
+				<property name="forceEncoding" value="true"/>
+			</bean>
+		</property>
+	</bean>
+
+	<bean id="beforeInvocationSettingFilter" class="com.youi.core.servlet.ProxyFilter">
+		<property name="name" value="BeforeInvocationSettingFilter"/>
+		<property name="filter">
+			<bean class="com.youi.core.servlet.BeforeInvocationSettingFilter">
+			</bean>
+		</property>
+	</bean>
+
+
+
+	<bean id="openSessionInViewFilter" class="com.youi.core.servlet.ProxyFilter">
+		<property name="name" value="hibernate"/>
+		<property name="filter">
+			<bean class="org.springframework.orm.hibernate4.support.OpenSessionInViewFilter"/>
+		</property>
+	</bean>
+
+
+	<!-- ====================================================================== -->
+
+	<bean id="servletFilter" class="com.youi.core.servlet.ServletFilter">
+		<property name="name" value="servlet"/>
+		<property name="servletMap">
+			<map>
+				<entry key="/**/*">
+					<ref bean="springmvc"/>
+				</entry>
+			</map>
+		</property>
+	</bean>
+
+
+	<bean id="springmvc" class="com.youi.core.servlet.ProxyServlet">
+		<constructor-arg index="0" value="springmvc"/>
+		<constructor-arg index="1">
+			<bean class="org.springframework.web.servlet.DispatcherServlet"/>
+		</constructor-arg>
+	</bean>
+    <!--listner-->
+     <bean class="com.youi.core.init.InitListener"/>
+</beans>
